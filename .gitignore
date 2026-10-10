@@ -1,0 +1,37 @@
+# Local Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Local editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Upstream dependency cloned locally (it has its own Git repository)
+/gaussian-splatting/
+
+# Training checkpoints, renders, and evaluation output
+/output/
+
+# Local image data and generated COLMAP/3DGS reconstructions
+/south-building-hw3-subsets-15-30/*
+!/south-building-hw3-subsets-15-30/README.txt
+!/south-building-hw3-subsets-15-30/selection.json
+
+# Common model and reconstruction artifacts
+*.pth
+*.pt
+*.ckpt
+*.db
+*.ply
+
